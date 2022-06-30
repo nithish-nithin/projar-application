@@ -1,0 +1,187 @@
+body{
+  margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+.sec1-container{
+  height: 830px;
+    width: 100%;
+    background: linear-gradient(135deg, #1A0E60 1.84%, #1A0E60 98.16%);
+  }
+ .sec1-head{
+  position: relative;
+    top: 183px;
+   color: white;
+  font-family: Roboto;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+   
+   
+ }
+
+.sec1-para{
+   position: absolute;
+   top: 248px;
+   left: 48px;
+   text-align: center;
+   font-size: 17px;
+   color: aliceblue;
+
+}
+#sec1-span{
+  
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px) {
+  .sec1-container {
+      height: 830px;
+      width: 100%;
+      background: linear-gradient(135deg, #1A0E60 1.84%, #1A0E60 98.16%);
+    }
+            .sec1-head {
+              position: relative;
+              top: 183px;
+              color: white;
+              font-family: Roboto;
+              font-size: 30px;
+              font-weight: 200;
+              line-height: 38px;
+              letter-spacing: 0em;
+              text-align: center;
+      
+      
+            }
+      
+                        .sec1-para {
+                          position: absolute;
+                          top: 268px;
+                          left: 158px;
+                          text-align: center;
+                          font-size: 17px;
+                          color: aliceblue;
+                          line-height: 20x;
+            
+                        }
+      
+            #sec1-span {
+      
+              font-family: Roboto;
+              font-size: 30px;
+              font-weight: 700;
+              line-height: 38px;
+              letter-spacing: 0em;
+              text-align: center;
+            }
+
+}
+@media screen and (min-width:960px) {
+  .sec1-container {
+      height: 830px;
+      width: 100%;
+      background: linear-gradient(135deg, #1A0E60 1.84%, #1A0E60 98.16%);
+    }
+
+        .sec1-head {
+          position: absolute;
+          top: 183px;
+          color: white;
+          font-family: Roboto;
+          font-size: 40px;
+          font-weight: 200;
+          line-height: 50px;
+          letter-spacing: 0em;
+          text-align: left;
+          left: 100px;
+          
+    
+    
+        }
+    
+                         .sec1-para {
+                           position: absolute;
+                           top:290px;
+                           left: 100px;
+                           text-align: left;
+                           font-size: 17px;
+                           color: aliceblue;
+                           line-height: 20x;
+            
+                         }
+        #sec1-span {
+    
+          font-family: Roboto;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 50px;
+          letter-spacing: 0em;
+          text-align: center;
+        }
+
+}
+@media screen and (min-width:1200px) {
+    .sec1-container {
+        height: 799px;
+          width: 1440px;
+           border-radius: 0px;
+        background: linear-gradient(135deg, #1A0E60 1.84%, #1A0E60 98.16%);
+      }
+     
+            .sec1-head {
+              position: absolute;
+              top: 274px;
+              color: white;
+              font-family: Roboto;
+                font-size: 52px;
+                font-weight: 400;
+                line-height: 60px;
+                letter-spacing: 0em;
+                text-align: left;
+                 left: 121.46;
+      
+      
+            }
+      
+            .sec1-para {}
+      
+            #sec1-span {
+      
+              font-family: Roboto;
+              font-size: 40px;
+              font-weight: 700;
+              line-height: 30px;
+              letter-spacing: 0em;
+              text-align: center;
+            }
+
+                                .sec1-para {
+                                  position: absolute;
+                                  font-family: Roboto;
+                                    font-size: 24px;
+                                    font-weight: 400;
+                                    line-height: 30px;
+                                    letter-spacing: 0em;
+                                    text-align: left;
+                                    left: 100px;
+                                    top: 413px;
+                
+                                }
+}
