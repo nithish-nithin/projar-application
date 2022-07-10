@@ -2,13 +2,17 @@ body{
   margin: 0%;
    padding: 0%;
    box-sizing: border-box;
-}
+  }
 
 .sec1-container{
   height: 830px;
     width: 100%;
-    background: linear-gradient(135deg, #1A0E60 1.84%, #1A0E60 98.16%);
-  }
+    background-image: url(./asset/\ mb.png);
+              background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+
+   }
  .sec1-head{
   position: relative;
     top: 183px;
@@ -41,11 +45,264 @@ body{
     letter-spacing: 0em;
     text-align: center;
 }
+.sec2{
+     height: 400px;
+     position: relative;
+}
+ .rc{
+  color: #444444;
+  font-family: Times;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+ }
+  
+ .sec2-con{
+  font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #555555;
+    position: absolute;
+    top: 152px;
+    left: 70px;
+ }
 
+ .mbox1{
+  height: 89px;
+    width: 132px;
+   background-color:  #D02C75;
+   position: absolute;
+   top: 376px;
+   left: 50px;
+   border-radius: 8px;
+}
+ .mbox1 img{
+  position: absolute;
+  top: 14.52px;
+  left: 17.18px;
+ }
+ .mbox1-num{
+    font-family: Roboto;
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: white;
+      top: 38px;
+      left: 10.6px;
+      position: absolute;
+ }
+ .mbox1-sub{
+    position: absolute;
+    top: 63.53px;
+    left: 12.6px;
+    font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: white;
 
+ }
+ 
 
+.mbox2 {
 
+  height: 89px;
+    width: 132px;
+    background-color: #F4812E;
+    position: absolute;
+      top: 376px;
+      left: 195px;
+      border-radius: 8px;
 
+}
+.mbox2 img{
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+.mbox2-num{
+  position: absolute;
+  top: 38px;
+  left: 12px;
+  font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.mbox2-sub{
+  position: absolute;
+  top: 63px;
+  left: 12px;
+  font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+ 
+.mbox3 {
+  height: 89px;
+    width: 132px;
+  background-color:#582DD2;
+    position: absolute;
+      top: 480px;
+      left: 128px;
+      border-radius: 8px;
+}
+.mbox3-num{
+  position: absolute;
+  top: 25px;
+  left: 12px;
+  font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.mbox3-sub{
+  position: absolute;
+  left:15px ;
+  top: 50px;
+  font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.sec1-para2{
+  font-family: Times;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #26EAF6;
+    position: relative;
+    top: 600px;
+}
+ .sec1-d-boxes{
+  display: none;
+ }
+   .sec3{
+    position: relative;
+   }
+ .sec3-con-head{
+  font-family: Times;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+ }
+ .sec3-con-para{
+  font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:  #000000;
+    margin-top: 8px;
+ }
+ 
+ .sec3-con-subpara{
+    font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0px;
+      text-align: center;
+      color:#555555;
+      margin-top: 10px;
+ }
+  
+ 
+     .sec2-icon2 img{
+      width: 100px;
+      position: absolute;
+      top: 40.25px;
+      left: 140px;
+     }
+     .sec3-img img{
+      position: absolute;
+      left: 10px;
+      top: 166.5px;
+      left: 50px;
+      width: 275px;
+      }
+          .webimgd{
+            display: none;
+          }
+      
+             .sec3-icon1 {
+               display: flex;
+               position: absolute;
+               top: 347.88px;
+               left: 43px;
+                }
+                .sec3-icon-head{
+                  font-family: Times;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 19px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-left: 12px;
+                    margin-top: 10px;
+                }
+               .sec3-icon-para{
+                  font-family: Roboto;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #333333;
+                    position:absolute;
+                    top: 405px;
+                    left: 51px;
+
+               }
+                                 .sec3-icon-para br{
+                                  display: none;
+                                 }
+                             .sec3-icon2 {
+                               display: flex;
+                               position: absolute;
+                               top: 509px;
+                               left: 43px;
+                             }
+                                                         .sec3-icon3 {
+                                                           display: flex;
+                                                           position: absolute;
+                                                           top: 557.88px;
+                                                           left: 43px;
+                                                         }
+.sec3-icon4 {
+  display: flex;
+  position: absolute;
+  top: 599px;
+  left: 43px;
+}
 
 
 
@@ -55,8 +312,11 @@ body{
   .sec1-container {
       height: 830px;
       width: 100%;
-      background: linear-gradient(135deg, #1A0E60 1.84%, #1A0E60 98.16%);
-    }
+                background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  background-image: url(./asset/\ mb.png);
+     }
             .sec1-head {
               position: relative;
               top: 183px;
@@ -68,8 +328,10 @@ body{
               letter-spacing: 0em;
               text-align: center;
       
-      
             }
+                            
+                                 
+
       
                         .sec1-para {
                           position: absolute;
@@ -92,17 +354,192 @@ body{
               text-align: center;
             }
 
+                        .sec2 {
+                          position: relative;
+                        }
+                                                
+            
+                        .rc {
+                          color: #444444;
+                          font-family: Times;
+                          font-size: 16px;
+                          font-weight: 400;
+                          line-height: 18px;
+                          letter-spacing: 0em;
+                          text-align: center;
+                        }
+                                                .icon2 img {
+                                                  width: 650px;
+                                                        position: absolute;
+                                                          top: 870px;
+                                                          left: 250px;
+                                                }
+ 
+
+                                        .sec2-con {
+                                          font-family: Roboto;
+                                          font-size: 18px;
+                                          font-weight: 400;
+                                          line-height: 21px;
+                                          letter-spacing: 0em;
+                                          text-align: center;
+                                          color: #555555;
+                                          position: absolute;
+                                          top: 180px;
+                                          left: 160px;
+                                        }
+                                                                               .mbox1 {
+                                                                                  height: 89px;
+                                                                                  width: 132px;
+                                                                                  background-color: #D02C75;
+                                                                                  position: absolute;
+                                                                                  top: 376px;
+                                                                                  left: 145px;
+                                                                                  border-radius: 8px;
+                                                                                }
+                                         .mbox2 {
+                    
+                                           height: 89px;
+                                           width: 132px;
+                                           background-color: #F4812E;
+                                           position: absolute;
+                                           top: 376px;
+                                           left: 294px;
+                                           border-radius: 8px;
+                    
+                                         }
+                                                                                 .mbox3 {
+                                                                                   height: 89px;
+                                                                                   width: 132px;
+                                                                                   background-color: #582DD2;
+                                                                                   position: absolute;
+                                                                                   top: 485px;
+                                                                                   left: 228px;
+                                                                                   border-radius: 8px;
+                                                                                 }
+                                                                        
+                                                                                
+                                                                    .sec3-con-head {
+                                                                      font-family: Times;
+                                                                      font-size: 18px;
+                                                                      font-weight: 700;
+                                                                      line-height: 19px;
+                                                                      letter-spacing: 0em;
+                                                                      text-align: center;
+                                                                    }
+                                  
+                                                                    .sec3-con-para {
+                                                                      font-family: Roboto;
+                                                                      font-size: 18px;
+                                                                      font-weight: 300;
+                                                                      line-height: 20px;
+                                                                      letter-spacing: 0px;
+                                                                      text-align: center;
+                                                                      color: #000000;
+                                                                      margin-top: 8px;
+                                                                    }
+                                  
+                                                                    .sec3-con-subpara {
+                                                                      font-family: Roboto;
+                                                                      font-size: 15 spx;
+                                                                      font-weight: 400;
+                                                                      line-height: 17px;
+                                                                      letter-spacing: 0px;
+                                                                      text-align: center;
+                                                                      color: #555555;
+                                                                      margin-top: 10px;
+                                                                    }
+            .sec3-img img{
+      position: absolute;
+      left: 10px;
+      top: 166.5px;
+      left: 50px;
+      width: 275px;
+      }
+
+            .sec3-img img {
+              position: absolute;
+              left: 10px;
+              top: 166.5px;
+              left: 117px;
+              width: 375px;
+      
+          }
+                     .sec3-icon1 {
+                       display: flex;
+                       position: absolute;
+                       top: 400.88px;
+                       left: 95px;
+                     }
+          
+                     .sec3-icon-head {
+                       font-family: Times;
+                       font-size: 20px;
+                       font-weight: 700;
+                       line-height: 19px;
+                       letter-spacing: 0em;
+                       text-align: left;
+                       margin-left: 12px;
+                       margin-top: 10px;
+                     }
+          
+                     .sec3-icon-para {
+                       font-family: Roboto;
+                       font-size: 16px;
+                       font-weight: 400;
+                       line-height: 18px;
+                       letter-spacing: 0em;
+                       text-align: left;
+                       color: #333333;
+                       position: absolute;
+                       top: 460px;
+                       left: 108px;
+          
+                     }
+
+                                                                 .sec3-icon-para br {
+                                                                   display: none;
+                                                                 }
+          
+                     .sec3-icon2 {
+                       display: flex;
+                       position: absolute;
+                       top: 560px;
+                       left: 95px;
+                     }
+          
+                     .sec3-icon3 {
+                       display: flex;
+                       position: absolute;
+                       top: 620.88px;
+                       left: 95px;
+                     }
+          
+                     .sec3-icon4 {
+                       display: flex;
+                       position: absolute;
+                       top: 688px;
+                       left: 93px;
+
+                     }
+                    
+
 }
-@media screen and (min-width:960px) {
+
+
+@media screen and (min-width:900px) {
   .sec1-container {
       height: 830px;
       width: 100%;
-      background: linear-gradient(135deg, #1A0E60 1.84%, #1A0E60 98.16%);
-    }
+                background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  background-image: url(./asset/\ db.png);
+     }
 
         .sec1-head {
           position: absolute;
-          top: 183px;
+          top:240px;
           color: white;
           font-family: Roboto;
           font-size: 40px;
@@ -118,7 +555,7 @@ body{
     
                          .sec1-para {
                            position: absolute;
-                           top:290px;
+                           top:350px;
                            left: 100px;
                            text-align: left;
                            font-size: 17px;
@@ -135,6 +572,55 @@ body{
           letter-spacing: 0em;
           text-align: center;
         }
+        .sec2{
+          
+         }
+                 .icon2 img {
+                   width: 150px;
+                    position: absolute;
+                      top: 870px;
+                      left: 380px;
+                 }
+      
+
+     .sec1-d-boxes {
+      display: block;
+     }
+                                        .dbox1 {
+                                          position: absolute;
+                                          top: 240px;
+                                          left: 559px;
+                                        }
+                    
+                                        .dbox2 {
+                                          position: absolute;
+                                          top: 105.91px;
+                                          left: 796.53px;
+                                        }
+                    
+                                        .dbox3 {
+                                          position: absolute;
+                                          position: absolute;
+                                          top: 356.84px;
+                                          left: 799px;
+                    
+                                        }
+
+                .sec1-M-boxes {
+                  display: none;
+                }
+                                    .sec2-con {
+                                      font-family: Roboto;
+                                      font-size: 18px;
+                                      font-weight: 400;
+                                      line-height: 21px;
+                                      letter-spacing: 0em;
+                                      text-align: center;
+                                      color: #555555;
+                                      position: absolute;
+                                      top: 1040px;
+                                      left: 160px;
+                                    }
 
 }
 @media screen and (min-width:1200px) {
@@ -142,8 +628,12 @@ body{
         height: 799px;
           width: 1440px;
            border-radius: 0px;
-        background: linear-gradient(135deg, #1A0E60 1.84%, #1A0E60 98.16%);
-      }
+           background-image: url(./asset/\ db.png);
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+            
+          }
      
             .sec1-head {
               position: absolute;
@@ -182,6 +672,103 @@ body{
                                     text-align: left;
                                     left: 100px;
                                     top: 413px;
-                
+        
                                 }
+                 .dbox1{
+                  position: absolute;
+                  top:313px ;
+                  left:859px ;
+                 }
+                 .dbox2{
+                  position: absolute;
+                  top: 185.91px;
+                  left: 1096.53px;
+                 }
+                 .dbox3{
+                  position: absolute;
+                    position: absolute;
+                      top: 456.84px;
+                      left: 1082.95px;
+
+                 }
+                    .sec2-icon2 img {
+                      position: absolute;
+                      left: 148px;
+                        top: 81.14px;
+                        width: 170px;
+                    }
+                    .sec2{
+                      position: relative;
+                    }
+          
+                    .sec2-con {
+                      font-family: Roboto;
+                        font-size: 32px;
+                        font-weight: 400;
+                        line-height: 45px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #555555  ;
+                        position: absolute;
+                        top: 104px;
+                        left: 758px;
+                    }
+
+    .sec1-para2{
+font-family: Times New Roman;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #26EAF6;
+  position: absolute;
+  left: 893px;
+  top: 653px;
+
+
+    }
+    .sec1-d-boxes {
+      display: block;
+     }
+     .sec3-con-head{
+        font-family: Times New Roman;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 29px;
+          letter-spacing: 0em;
+          text-align: center;
+     }
+     .sec3-con-para{
+        font-family: Roboto;
+          font-size: 28px;
+          font-weight: 300;
+          line-height: 39px;
+          letter-spacing: 0px;
+          text-align: center;
+          color: #000000;
+
+     }
+     .sec3-con-subpara{
+      font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #555555;
+     }
+            .sec3-con-subpara br {
+              display: block;
+            }
+        .sec3-img{
+          display: none;
+        }
+                .webimgd {
+                  display: block;
+                }
+                                                                 .sec3-icon-para br {
+                                                                   display: block;
+                                                                 }
+
 }
