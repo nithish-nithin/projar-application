@@ -12,6 +12,7 @@ import Cd from "./asset/cd.png";
 import Wmd from "./asset/wm.png";
 import Be from "./asset/be.png";
 import Dm from "./asset/dm.png";
+import OurProject from "../OurProject/OurProject";
 function Pro() {
   return (
     <div>
@@ -89,8 +90,11 @@ function Pro() {
           </div>
           <div className="sec3-con-subpara">
             The breadth and depth of our experience allows us to
-            <br /> create tailor-made user interface design that lead to <br />
-            increased user retention, engagement & loyality.
+            <br /> create tailor-made{" "}
+            <span className="sec3-con-subpara-span">
+              user interface design that lead to <br />
+              increased user retention, engagement & loyality.
+            </span>
           </div>
           <div className="sec3-img">
             <img src={Webimgm} alt="not found" />
@@ -134,6 +138,9 @@ function Pro() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="sec4">
+        <OurProject />
       </section>
     </div>
   );

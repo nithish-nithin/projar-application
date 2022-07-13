@@ -1,5 +1,5 @@
 import React from "react";
-import Pro from "./Component/PRO/Pro";
+import Pro from "./Component/PRO/Pro.js";
 
 function App() {
   return (

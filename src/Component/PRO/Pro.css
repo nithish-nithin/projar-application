@@ -48,7 +48,7 @@ body{
 .sec2{
      height: 400px;
      position: relative;
-}
+ }
  .rc{
   color: #444444;
   font-family: Times;
@@ -204,6 +204,7 @@ body{
  }
    .sec3{
     position: relative;
+     height: 646px;
    }
  .sec3-con-head{
   font-family: Times;
@@ -303,7 +304,11 @@ body{
   top: 599px;
   left: 43px;
 }
-
+.sec4{
+  height: 430px;
+   position: relative;
+  top: 140px;
+  }
 
 
 
@@ -758,17 +763,92 @@ font-family: Times New Roman;
         text-align: center;
         color: #555555;
      }
+       
+
             .sec3-con-subpara br {
               display: block;
             }
         .sec3-img{
           display: none;
         }
-                .webimgd {
+                .webimgd{
                   display: block;
+                  
+                   
                 }
-                                                                 .sec3-icon-para br {
+                     .webimgd img{
+                      position: absolute;
+                      left: 888px;
+                      top: 210px;
+                      width: 385px;
+                     }  
+                                             .sec3-icon1 {
+                                               display: flex;
+                                               position: absolute;
+                                               top: 251px;
+                                               left: 222px;
+                                             }
+            .sec3-icon3 {
+              display: flex;
+              position: absolute;
+              top: 479px;
+              left: 222px;
+            }
+                         .sec3-icon4 {
+                           display: flex;
+                           position: absolute;
+                           top: 555px;
+                           left: 222px;
+                         }
+
+                                                                                            .sec3-icon2 {
+                                                                                              display: flex;
+                                                                                              position: absolute;
+                                                                                              top: 403px;
+                                                                                              left: 222px;
+                                                                                            }
+                                                                                            
+                      
+                                             .sec3-icon-head {
+                                              font-family: Times New Roman;
+                                                font-size: 24px;
+                                                font-weight: 700;
+                                                line-height: 29px;
+                                                letter-spacing: 0em;
+                                                text-align: left;
+                                               text-align: left;
+                                               margin-left: 17px;
+                                               margin-top: 10px;
+                                             }                    .sec3-icon-para br {
                                                                    display: block;
-                                                                 }
+                                              }
+                                                                                            .sec3-icon-para{
+                                                                                              color:#333333;
+                                                                                              top: 296px;
+                                                                                              left: 285px;
+                                                                                              position: absolute;
+                                                                                              font-family: Roboto;
+                                                                                                font-size: 16px;
+                                                                                                font-weight: 400;
+                                                                                                line-height: 24px;
+                                                                                                letter-spacing: 0em;
+                                                                                                text-align: left;
+                                                                                            }
+
+  .sec3-con-subpara br{
+     display: none;
+  }
+  .sec3-con-subpara-span{
+     display: block;
+  }
+                    .sec4 {
+                      height: 800px;
+                       position: relative;
+                      top: 140px;
+                      width: auto;
+                    }
+            
+            
+                                                      
 
 }
