@@ -29,6 +29,8 @@ import Sk from "./ sec6-assets/sk.png";
 import Inv from "./ sec6-assets/inv.png";
 import Ae from "./ sec6-assets/ae.png";
 import Dp2 from "../ Dp2/Dp2";
+import Carosel from "../ carosel/Carosel.js";
+
 function Pro() {
   return (
     <div>
@@ -260,6 +262,9 @@ function Pro() {
       </section>
       <section className="sec7">
         <Dp2 />
+      </section>
+      <section className="sec8">
+        <Carosel />
       </section>
     </div>
   );

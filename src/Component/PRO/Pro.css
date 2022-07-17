@@ -447,7 +447,11 @@ body{
    margin-left: 10px;
  }
 
-
+.sec8{
+  height: 520px;
+   position: relative;
+ 
+}
 
 
 
@@ -1012,7 +1016,7 @@ font-family: Times New Roman;
       position: relative;
      }
              .sec7 {
-               height: 585px;
+               height: 645px;
                background-color: #F5F6F5F5;
                position: relative;
              }
@@ -1145,6 +1149,10 @@ font-family: Times New Roman;
         .di8 img {
           width: 29.21px;
          }
- 
+     .sec8 {
+       height: 800px;
+       position: relative;
+   
+     }
 
 }
