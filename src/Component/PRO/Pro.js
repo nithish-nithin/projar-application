@@ -30,6 +30,8 @@ import Inv from "./ sec6-assets/inv.png";
 import Ae from "./ sec6-assets/ae.png";
 import Dp2 from "../ Dp2/Dp2";
 import Carosel from "../ carosel/Carosel.js";
+import Form from "../ form/Form";
+import Foot from "../ footer/Foot.js";
 
 function Pro() {
   return (
@@ -265,6 +267,12 @@ function Pro() {
       </section>
       <section className="sec8">
         <Carosel />
+      </section>
+      <section className="sec9">
+        <Form />
+      </section>
+      <section className="sec10">
+        <Foot />
       </section>
     </div>
   );

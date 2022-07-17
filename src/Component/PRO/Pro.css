@@ -452,6 +452,17 @@ body{
    position: relative;
  
 }
+.sec9{
+  height: 710px;
+   width: 400px;
+   background: #F8F8F8;
+  position: relative;
+}
+ .sec10{
+  height: 500px;
+  position: relative;
+  width: 100%;
+ }
 
 
 
@@ -1154,5 +1165,17 @@ font-family: Times New Roman;
        position: relative;
    
      }
+     .sec9 {
+      height: 467px;
+      width: 100%;
+      background: #F8F8F8;
+      position: relative;
+    }
+     .sec10{
+      height: 650px;
+      width: 100%;
+      position: absolute;
+     }
+
 
 }
